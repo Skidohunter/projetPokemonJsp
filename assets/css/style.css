@@ -1,0 +1,107 @@
+* {
+  text-decoration: none;
+  font-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#acceuil {
+  background-image: url("../images/thumb-1920-481903.png");
+  background-size: cover;
+  height: 100%;
+}
+#acceuil #pokemonJ {
+  position: absolute;
+  bottom: 50%;
+  left: 20px;
+  background-color: aqua;
+  width: 200px;
+  padding-top: 60px;
+  font-size: 2rem;
+  text-align: center;
+  padding: 50px;
+  border-radius: 50%;
+}
+#acceuil #pokemonJ:hover {
+  color: black;
+  background-color: red;
+  border: 2px black solid;
+}
+
+#pokemonsShow {
+  text-align: center;
+  background-color: bisque;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-top: 10px;
+}
+#pokemonsShow h2 {
+  color: rebeccapurple;
+}
+
+#logo {
+  width: 300px;
+  height: 120px;
+}
+
+#inputP {
+  background-color: yellowgreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px;
+  padding: 10px 10px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  color: cornflowerblue;
+  background-color: black;
+}
+
+.article {
+  -webkit-animation: mooveP 2s ease;
+          animation: mooveP 2s ease;
+  background-color: whitesmoke;
+  border: solid black 2px;
+  width: 300px;
+  margin: 0 5px 10px 5px;
+}
+
+.imgArticles {
+  width: 150px;
+  height: 150px;
+}
+
+@-webkit-keyframes mooveP {
+  0% {
+    transform: translateX(150%);
+  }
+}
+
+@keyframes mooveP {
+  0% {
+    transform: translateX(150%);
+  }
+}
+#resDiv {
+  text-align: center;
+  padding-top: 50px;
+}
+#resDiv td {
+  border: solid 1px black;
+  padding: 10px 16px;
+}
+
+#idPokemon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
